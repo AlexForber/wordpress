@@ -11,6 +11,7 @@
 }
 
 .container{
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -131,7 +132,7 @@ h2.title{
 }
 
 .waiting{
-    height: 604px;
+    min-height: 604px;
     background-color: #efefef;
     padding: 85px 0 75px 0;
 }
@@ -178,4 +179,41 @@ h2.title{
     margin: 0 15px;
     width: 339px;
     text-align: center;
+}
+
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization__title{
+    margin-left: 391px;
+    font-size: 29px;
+    font-weight: 700;
+    color: #299cbd;
+    text-transform: uppercase;
+}
+
+.optimization__text{
+    margin-top: 25px;
+    margin-left: 391px;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.59;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #4a4a4a;
+}
+
+.optimization__text span{
+    font-weight: 700;
+}
+
+.optimization__img{
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
 }
