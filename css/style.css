@@ -137,7 +137,7 @@ h2.title{
     padding: 85px 0 75px 0;
 }
 
-.waiting__header{
+.waiting__header, .training__title{
     color: #252525;
     font-family: Roboto;
     font-size: 30px;
@@ -149,7 +149,7 @@ h2.title{
     text-transform: uppercase;
 }
 
-.waiting__divider{
+.waiting__divider, .training__divider{
     width: 217px;
     height: 4px;
     margin: 0 auto;
@@ -216,4 +216,35 @@ h2.title{
     top: -54px;
     left: -240px;
     z-index: -1;
+}
+
+.training{
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/bg/bg-3.jpg') center center/cover no-repeat;
+}
+
+.training__title{
+    color: #ffffff;
+}
+
+.training__wrapper{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 41px;
+}
+
+.training__item{
+    width: 204px;
+    
+}
+
+.training__descr{
+    margin-top: 25px; 
+    font-size: 17px;
+    font-weight: 400;
+    color: #efefef;
+    line-height: 20px;
 }
